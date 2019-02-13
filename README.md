@@ -22,3 +22,6 @@ using HTML canvas to render the game
 
 # Why I made this
 After alphaGo beat human at Go, my roommate and I start to play Gobang for that it's almost identical to Go. So I made this game to play with my roommate. I also made a bot to compete with the one made by my roommate.
+
+with module folder:
+https://drive.google.com/drive/folders/1TOdWGkGAGCK-pTNYNpX0eAAfvUIdQnnS
