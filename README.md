@@ -1,7 +1,7 @@
 # Gobang
 a Gobang game I made at 2017.02
 
-How to run
+#How to run
   run ChessServer.js and the module, Socket.io, is needed
   connect to port 'address:8080'
   submit a name , then press 'Play'
