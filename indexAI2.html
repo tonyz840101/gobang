@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<title>5_Chess</title>
+	<link rel=stylesheet type="text/css" href="style.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+</head>
+<body>
+	<div id="cover">
+		<div class="messageZone">
+			<h1 id="message">Please enter your ID:</h1>
+			<input type="text" id="idEnter"></input><br>
+			<button id="idSubmit">Submit</button>
+		</div>
+	</div>
+	<div id="left">
+		<p id="userName"> &nbsp </p>
+		<button id="findGame">Play</button>
+		<button id="surrender">Surrender</button>
+		<p id="lobbyMessage">Welcome!</p>
+		<hr>
+		<div id="userList">Online players：<br><ul id="names"></ul></div>
+	</div>
+	<div id="mid">
+		<div id="gameMessageZone" class="messageZone">
+			<h1 id="gameMessage">&nbsp </h1>
+			<button id="gameMessageBtn1" class="gameMessageBtn"> &nbsp </button>
+			<button id="gameMessageBtn2" class="gameMessageBtn"> &nbsp </button>
+			<button id="gameMessageBtn3" class="gameMessageBtn"> &nbsp </button>
+		</div>
+		<canvas id="table"></canvas>
+	</div>
+	<div id="chatZone">
+		<ul id="chatContent">
+		</ul>
+		<textarea  type="text" id="chatInput"></textarea >
+		<button id="chatEnter"> > </button>
+	</div>
+	<script language="JavaScript" src="chessAI2.js"></script>
+</body>
+</html>
